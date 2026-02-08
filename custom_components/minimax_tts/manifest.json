@@ -1,0 +1,12 @@
+{
+  "domain": "minimax_tts",
+  "name": "MiniMax TTS",
+  "codeowners": ["@AndrewSpec"],
+  "config_flow": true,
+  "dependencies": ["tts"],
+  "documentation": "https://github.com/AndrewSpec/minimax_tts",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/AndrewSpec/minimax_tts/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

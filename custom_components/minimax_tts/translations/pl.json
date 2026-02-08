@@ -1,0 +1,46 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Konfiguracja MiniMax TTS",
+        "description": "Podaj swoje dane dla API MiniMax.",
+        "data": {
+          "api_key": "Klucz API",
+          "name": "Nazwa encji TTS",
+          "model": "Model",
+          "voice_id": "ID głosu",
+          "language": "Język",
+          "speed": "Prędkość",
+          "vol": "Głośność",
+          "pitch": "Wysokość dźwięku"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Nie udało się połączyć",
+      "invalid_auth": "Nieprawidłowa autentykacja",
+      "unknown": "Niespodziewany błąd"
+    },
+    "abort": {
+      "already_configured": "Urządzenie jest już skonfigurowane"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opcje",
+        "description": "Zmiana ustawień dla API MiniMax",
+        "data": {
+          "api_key": "Klucz API",
+          "name": "Nazwa encji TTS",
+          "model": "Model",
+          "voice_id": "ID głosu",
+          "language": "Język",
+          "speed": "Prędkość",
+          "vol": "Głośność",
+          "pitch": "Wysokość dźwięku"
+        }
+      }
+    }
+  }
+}

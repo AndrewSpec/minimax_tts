@@ -1,0 +1,47 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "MiniMax TTS Configuration",
+        "description": "Enter your MiniMax API details below.",
+        "data": {
+          "api_key": "API Key",
+          "name": "TTS Entity Name",
+          "model": "Model",
+          "voice_id": "Voice ID",
+          "language": "Language",
+          "speed": "Speed",
+          "vol": "Volume",
+          "pitch": "Pitch"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "description": "Change settings",
+        "data": {
+          "api_key": "API Key",
+          "name": "TTS Entity Name",
+          "model": "Model",
+          "voice_id": "Voice ID",
+          "language": "Language",
+          "speed": "Speed",
+          "vol": "Volume",
+          "pitch": "Pitch"
+        
+        }
+      }
+    }
+  }
+}
