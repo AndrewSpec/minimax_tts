@@ -67,5 +67,45 @@ TTS_MODELS = [
     "speech-2.8-turbo",
     "speech-2.6-turbo",
     "speech-02-hd",
-    "speech-02-turbo"
+    "speech-02-turbo",
 ]
+# API language names are not ISO language codes.
+LANGUAGE_BOOST = {
+    code: name.split(" (")[0] for name, code in SUPPORTED_LANGUAGES.items()
+}
+LANGUAGE_BOOST.update({"yue": "Chinese,Yue", "nn": "Nynorsk", "auto": "auto"})
+SUPPORTED_LANGUAGES["Auto-detect"] = "auto"
+LEGACY_UNSUPPORTED_LANGUAGES = {"fa", "tl", "ta"}
+
+CONF_REGION = "region"
+API_HOSTS = {"global": "api.minimax.io", "china": "api.minimaxi.com"}
+EMOTIONS = [
+    "auto",
+    "happy",
+    "sad",
+    "angry",
+    "fearful",
+    "disgusted",
+    "surprised",
+    "calm",
+    "fluent",
+    "whisper",
+]
+SAMPLE_RATES = [8000, 16000, 22050, 24000, 32000, 44100]
+BITRATES = [32000, 64000, 128000, 256000]
+SOUND_EFFECTS = ["spacious_echo", "auditorium_echo", "lofi_telephone", "robotic"]
+DEFAULTS = {
+    CONF_TTS_NAME: CONF_DEFAULT_TTS_NAME,
+    CONF_MODEL: "speech-2.8-hd",
+    CONF_VOICE_ID: CONF_DEFAULT_VOICE,
+    CONF_LANGUAGE: CONF_DEFAULT_LANGUAGE,
+    CONF_SPEED: CONF_DEFAULT_SPEED,
+    CONF_VOL: CONF_DEFAULT_VOL,
+    CONF_PITCH: CONF_DEFAULT_PITCH,
+    CONF_REGION: "global",
+    "emotion": "auto",
+    "english_normalization": False,
+    "sample_rate": 32000,
+    "bitrate": 128000,
+    "channel": 1,
+}

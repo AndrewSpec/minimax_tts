@@ -12,17 +12,33 @@
           "language": "Language",
           "speed": "Speed",
           "vol": "Volume",
-          "pitch": "Pitch"
+          "pitch": "Pitch",
+          "region": "API account region",
+          "emotion": "Emotion (auto — automatic selection)",
+          "english_normalization": "English text and number normalization",
+          "sample_rate": "Sample rate (Hz)",
+          "bitrate": "MP3 bitrate (bit/s)",
+          "channel": "Channels"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Update API key",
+        "description": "Enter your current MiniMax API key and account region.",
+        "data": {
+          "api_key": "API Key",
+          "region": "API account region"
         }
       }
     },
     "error": {
       "cannot_connect": "Failed to connect",
       "invalid_auth": "Invalid authentication",
-      "unknown": "Unexpected error"
+      "unknown": "Unexpected error",
+      "invalid_settings": "Invalid settings or unsupported combination of model, language and emotion."
     },
     "abort": {
-      "already_configured": "Device is already configured"
+      "already_configured": "Device is already configured",
+      "reauth_successful": "Credentials updated successfully."
     }
   },
   "options": {
@@ -38,10 +54,21 @@
           "language": "Language",
           "speed": "Speed",
           "vol": "Volume",
-          "pitch": "Pitch"
-        
+          "pitch": "Pitch",
+          "region": "API account region",
+          "emotion": "Emotion (auto — automatic selection)",
+          "english_normalization": "English text and number normalization",
+          "sample_rate": "Sample rate (Hz)",
+          "bitrate": "MP3 bitrate (bit/s)",
+          "channel": "Channels"
         }
       }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error",
+      "invalid_settings": "Invalid settings or unsupported combination of model, language and emotion."
     }
   }
 }

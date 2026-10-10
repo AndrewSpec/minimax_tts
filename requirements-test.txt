@@ -1,0 +1,6 @@
+homeassistant==2026.10.0
+pytest==9.1.1
+pytest-asyncio==1.4.0
+ruff==0.16.10
+mutagen==1.48.1
+ha-ffmpeg==3.2.2

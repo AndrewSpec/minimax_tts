@@ -12,17 +12,33 @@
           "language": "Język",
           "speed": "Prędkość",
           "vol": "Głośność",
-          "pitch": "Wysokość dźwięku"
+          "pitch": "Wysokość dźwięku",
+          "region": "Region konta API",
+          "emotion": "Emocja (auto — dobór automatyczny)",
+          "english_normalization": "Normalizacja liczb i tekstu angielskiego",
+          "sample_rate": "Częstotliwość próbkowania (Hz)",
+          "bitrate": "Przepływność MP3 (bit/s)",
+          "channel": "Liczba kanałów"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Aktualizacja klucza API",
+        "description": "Podaj aktualny klucz API MiniMax i region konta.",
+        "data": {
+          "api_key": "Klucz API",
+          "region": "Region konta API"
         }
       }
     },
     "error": {
       "cannot_connect": "Nie udało się połączyć",
       "invalid_auth": "Nieprawidłowa autentykacja",
-      "unknown": "Niespodziewany błąd"
+      "unknown": "Niespodziewany błąd",
+      "invalid_settings": "Nieprawidłowe ustawienia lub połączenie modelu, języka i emocji."
     },
     "abort": {
-      "already_configured": "Urządzenie jest już skonfigurowane"
+      "already_configured": "Urządzenie jest już skonfigurowane",
+      "reauth_successful": "Zaktualizowano dane logowania."
     }
   },
   "options": {
@@ -38,9 +54,21 @@
           "language": "Język",
           "speed": "Prędkość",
           "vol": "Głośność",
-          "pitch": "Wysokość dźwięku"
+          "pitch": "Wysokość dźwięku",
+          "region": "Region konta API",
+          "emotion": "Emocja (auto — dobór automatyczny)",
+          "english_normalization": "Normalizacja liczb i tekstu angielskiego",
+          "sample_rate": "Częstotliwość próbkowania (Hz)",
+          "bitrate": "Przepływność MP3 (bit/s)",
+          "channel": "Liczba kanałów"
         }
       }
+    },
+    "error": {
+      "cannot_connect": "Nie udało się połączyć",
+      "invalid_auth": "Nieprawidłowa autentykacja",
+      "unknown": "Niespodziewany błąd",
+      "invalid_settings": "Nieprawidłowe ustawienia lub połączenie modelu, języka i emocji."
     }
   }
 }
